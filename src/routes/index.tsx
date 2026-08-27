@@ -332,10 +332,11 @@ function FeaturedAdventures() {
           />
           <div className="flex flex-col justify-center gap-4 p-8">
             <h3 className="font-display text-2xl text-brand">
-              <span className="text-leaf">{slides[active].title.split(" ")[0]}</span>{" "}
-              {slides[active].title.split(" ").slice(1).join(" ")}
+              <span className="text-leaf">{current.title.split(" ")[0]}</span>{" "}
+              {current.title.split(" ").slice(1).join(" ")}
             </h3>
-            <p className="text-sm text-muted-foreground">{slides[active].body}</p>
+            <p className="text-sm text-muted-foreground">{current.body}</p>
+
             <button className="pill-btn pill-btn-sun w-fit text-sm">
               Start Adventure
               <ArrowRight className="size-4" />
