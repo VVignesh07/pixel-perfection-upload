@@ -314,6 +314,8 @@ function FeaturedAdventures() {
       body: "Dive down with a curious crew to solve riddles hidden in a coral kingdom.",
     },
   ];
+  const current = slides[active] ?? slides[0]!;
+
 
   return (
     <section className="bg-background py-16">
