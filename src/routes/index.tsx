@@ -168,7 +168,7 @@ function Hero() {
 
 function Topics() {
   return (
-    <section id="explore" className="relative bg-mint/60 py-16">
+    <section id="explore" className="relative bg-mint/60 pt-20 pb-16">
       <div className="mx-auto w-full max-w-6xl px-6">
         <SectionHeading title="Explore by Topic" />
         <div className="relative flex items-center justify-center gap-6">
