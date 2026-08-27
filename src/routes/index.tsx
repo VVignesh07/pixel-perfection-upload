@@ -152,7 +152,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className="mx-auto -mt-8 w-full max-w-4xl px-4">
+      <div className="relative z-10 mx-auto -mt-10 w-full max-w-4xl px-4">
         <ul className="toy-card grid grid-cols-2 gap-3 rounded-3xl px-5 py-4 sm:flex sm:items-center sm:justify-between">
           {BADGES.map(({ label, icon: Icon, tone }) => (
             <li key={label} className="flex items-center gap-2 sm:px-3">
