@@ -125,7 +125,7 @@ function Index() {
 
 function Hero() {
   return (
-    <section className="relative" aria-labelledby="hero-title">
+    <section className="relative z-20" aria-labelledby="hero-title">
       <div className="relative h-[420px] w-full overflow-hidden sm:h-[520px] lg:h-[620px]">
         <img
           src={heroImg}
